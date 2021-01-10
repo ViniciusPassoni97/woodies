@@ -13,7 +13,7 @@ const ContainerHeader = styled.div`
     .ContainerHeaderDivInfoLink{
         cursor:pointer;
         margin-left:3rem;
-        font-size:1.3rem;
+        font-size:1rem;
     }
     .ContainerHeaderDivInfoLink:hover{
         color:#DAA520;
@@ -23,6 +23,26 @@ const ContainerHeader = styled.div`
     }
     .ContainerHeaderDivImageTitle{
         margin-left:2rem;
+        font-size:1.5rem;    
+    }
+    .ContainerHeaderDivImageImg{
+        width:2rem;
+        height:2rem;
+    }
+    .ContainerHeaderDivInfoButton{
+        padding:0.3rem 1.4rem;
+        border-radius:0.5rem;
+        border:0.4rem;
+    }
+    .ContainerHeaderDivInfoButton:hover{
+        color:#DAA520;
+        background-color:#ffffff;
+    }
+    @media(max-width:950px){
+        width:100%;
+        .ContainerHeaderDivInfoLink{
+            margin-left:1;
+        }
     }
 `;
 

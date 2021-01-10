@@ -1,5 +1,7 @@
-import React,{useState} from 'react';
+import React from 'react';
 
-const screen = useState(0);
+const globalScreen: React.FC = () => {
+  return <div />;
+}
 
-export default screen;
+export default globalScreen;
