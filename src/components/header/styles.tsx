@@ -12,11 +12,15 @@ const ContainerHeader = styled.div`
     }
     .ContainerHeaderDivInfoLink{
         cursor:pointer;
-        margin-left:3rem;
-        font-size:1rem;
+        margin-left:1rem;
+        font-size:0.8rem;
+        padding:0.3rem 1.4rem;
+        border-radius:0.5rem;
+        border:0.4rem;
     }
     .ContainerHeaderDivInfoLink:hover{
         color:#DAA520;
+        background-color:#ffffff;
     }
     .ContainerHeaderDivInfoButton{
         margin-left:2rem;

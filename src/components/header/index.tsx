@@ -12,36 +12,36 @@ const Header: React.FC = () => {
             <h1 className='ContainerHeaderDivImageTitle'>Woodies</h1>
         </div>
         <div className='ContainerHeaderDivInfo'>
-            <motion.a 
+            <motion.button
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             className='ContainerHeaderDivInfoLink'>
               Home
-            </motion.a >
-            <motion.a 
+            </motion.button>
+            <motion.button 
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             className='ContainerHeaderDivInfoLink'>
               About Us
-            </motion.a>
-            <motion.a 
+            </motion.button>
+            <motion.button 
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             className='ContainerHeaderDivInfoLink'>
               How it works
-            </motion.a>
-            <motion.a 
+            </motion.button>
+            <motion.button 
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}  
             className='ContainerHeaderDivInfoLink'>
               Categories
-            </motion.a>
-            <motion.a 
+            </motion.button>
+            <motion.button 
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             className='ContainerHeaderDivInfoLink'>
               Testimony
-            </motion.a>
+            </motion.button>
             <motion.button 
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
