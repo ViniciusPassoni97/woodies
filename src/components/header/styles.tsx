@@ -17,10 +17,11 @@ const ContainerHeader = styled.div`
         padding:0.3rem 1.4rem;
         border-radius:0.5rem;
         border:0.4rem;
+        background-color:#ffffff;
     }
     .ContainerHeaderDivInfoLink:hover{
         color:#DAA520;
-        background-color:#ffffff;
+        background-color:#f1f1f1;
     }
     .ContainerHeaderDivInfoButton{
         margin-left:2rem;
@@ -37,10 +38,11 @@ const ContainerHeader = styled.div`
         padding:0.3rem 1.4rem;
         border-radius:0.5rem;
         border:0.4rem;
+        background-color:#ffffff;
     }
     .ContainerHeaderDivInfoButton:hover{
         color:#DAA520;
-        background-color:#ffffff;
+        background-color:#f1f1f1;
     }
     @media(max-width:950px){
         width:100%;
