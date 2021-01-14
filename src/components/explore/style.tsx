@@ -1,14 +1,16 @@
 import styled from 'styled-components';
 
-export const exploreDiv = styled.div`
+export const ExploreDiv = styled.div`
     display:flex;
 `;
 
-export const exploreDivInfo =  styled.div`
-    
+export const ExploreDivInfo =  styled.div`
+    .ExploreDivInfoButton{
+
+    }
 `;
 
-export const exploreDivImage =  styled.div`
+export const ExploreDivImage =  styled.div`
 
 `;
 
