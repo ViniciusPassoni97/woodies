@@ -9,8 +9,8 @@ const explore: React.FC = () => {
       <>
         <ExploreDiv>
           <ExploreDivInfo>
-            <p className=''>Are you looking for woodden furniture for your place?</p>
-            <h2 className=''>This is the Right Place</h2>
+            <p className='ExploreDivInfoTitle'>Are you looking for <strong>woodden furniture </strong>for your place ?</p>
+            <h2 className='ExploreDivInfo'>This is the Right Place</h2>
             <motion.button
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
@@ -19,7 +19,7 @@ const explore: React.FC = () => {
             </motion.button>
           </ExploreDivInfo>
           <ExploreDivImage>
-            <img src={Balcony} alt='Balcony' />
+            <img className='ExploreDivImageImg' src={Balcony} alt='Balcony' />
           </ExploreDivImage>
         </ExploreDiv>
       </>

@@ -10,6 +10,9 @@ const home: React.FC = () => {
         <ContainerHome>
             <Header />
             <Explore />
+            <div className='HomeColor'>
+        
+            </div>
         </ContainerHome>
       </>
   );

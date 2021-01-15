@@ -18,6 +18,7 @@ const ContainerHeader = styled.div`
         border-radius:0.5rem;
         border:0.4rem;
         background-color:#ffffff;
+        opacity:0.7;
     }
     .ContainerHeaderDivInfoLink:hover{
         color:#DAA520;
@@ -25,6 +26,7 @@ const ContainerHeader = styled.div`
     }
     .ContainerHeaderDivInfoButton{
         margin-left:2rem;
+        opacity:0.7;
     }
     .ContainerHeaderDivImageTitle{
         margin-left:2rem;
