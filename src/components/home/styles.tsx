@@ -9,8 +9,16 @@ const ContainerHome = styled.div`
         left:55rem;
         width:30%;
         height:35rem;
-        border-radius: 0 0 0 2rem;
+        border-radius: 0 0 0 4rem;
         background-color:#e98b8b;
+        z-index:-1;
+    }
+    .group{
+        position:absolute;
+        top:18rem;
+        left:43rem;
+        height:17rem;
+        width:17rem;
         z-index:-1;
     }
 `;
