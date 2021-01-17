@@ -16,9 +16,9 @@ const ContainerHome = styled.div`
     .group{
         position:absolute;
         top:18rem;
-        right:20;
-        height:13rem;
-        width:13rem;
+        right:18rem;
+        height:15rem;
+        width:15rem;
         z-index:-1;
     }
 `;
