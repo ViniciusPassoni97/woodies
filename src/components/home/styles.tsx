@@ -6,7 +6,7 @@ const ContainerHome = styled.div`
     .HomeColor{
         position:absolute;
         top:0;
-        left:55rem;
+        right:0rem;
         width:30%;
         height:35rem;
         border-radius: 0 0 0 4rem;
@@ -16,9 +16,9 @@ const ContainerHome = styled.div`
     .group{
         position:absolute;
         top:18rem;
-        left:43rem;
-        height:17rem;
-        width:17rem;
+        right:20;
+        height:13rem;
+        width:13rem;
         z-index:-1;
     }
 `;

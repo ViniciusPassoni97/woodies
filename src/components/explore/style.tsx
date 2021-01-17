@@ -34,7 +34,7 @@ export const ExploreDivInfo =  styled.div`
 export const ExploreDivImage =  styled.div`
     margin-top:5rem;
     .ExploreDivImageImg{
-        width:30rem;
+        width:25rem;
         height:25rem;
         z-index:10;
     }
