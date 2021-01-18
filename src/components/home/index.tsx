@@ -4,6 +4,7 @@ import ContainerHome from './styles';
 import Header from '../header/index';
 import Explore from '../explore/index';
 import Group from '../../assets/icons/group.png';
+import About from '../about/index';
 
 const home: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const home: React.FC = () => {
         
             </div>
             <img className='group' src={Group} alt='Group' />
+            <About />
         </ContainerHome>
       </>
   );
