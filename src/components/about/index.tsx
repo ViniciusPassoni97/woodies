@@ -1,6 +1,6 @@
 import React from 'react';
 import Group from '../../assets/icons/group.png';
-import {ContainerAbout,ContainerAboutHeader} from './style';
+import {ContainerAbout,ContainerAboutHeader,ContainerAboutLineAbout} from './style';
 
 const about:React.FC = () => {
     return(
@@ -9,11 +9,9 @@ const about:React.FC = () => {
                 <img src={Group} alt="Group" className="ContainerAboutHeaderImg"/>
                 <p className="ContainerAboutHeaderTitle">Who we are</p>
             </ContainerAboutHeader>
-            <div className="">
-            </div>
-            <div className="">
-                <p className="">About</p>
-            </div>
+            <ContainerAboutLineAbout>
+                <p className="ContainerAboutLineAboutText">About</p>
+            </ContainerAboutLineAbout>
         </ContainerAbout>
     )
 }
