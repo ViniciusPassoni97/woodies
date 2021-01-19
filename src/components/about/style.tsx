@@ -12,12 +12,12 @@ export const ContainerAboutHeader = styled.div`
     display: flex;
     align-items: center;
     .ContainerAboutHeaderImg{
-        width:4rem;
-        height:4rem;
+        width:2.5rem;
+        height:2.5rem;
         color:#000;  
     }
     .ContainerAboutHeaderTitle{
-        font-size:3rem;
+        font-size:2rem;
     }
 `;
 
@@ -29,10 +29,9 @@ export const ContainerAboutLineAbout = styled.div`
         color:#7c7c7c;
     }
 `;
-
 export const ContainerAboutLine = styled.div`
     margin-top:10rem;
-    width:36%;
+    width:50%;
     height:0.1rem;
     background-color:#000;
 `;
