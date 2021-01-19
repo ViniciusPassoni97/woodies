@@ -17,3 +17,5 @@ const Body: React.FC = () => {
         </ContainerAboutBody>
     );
 }
+
+export default Body;
