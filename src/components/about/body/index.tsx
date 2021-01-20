@@ -10,7 +10,7 @@ const Body: React.FC = () => {
                 <img src={AboutImage} alt='ContainerAboutBodyImg' className='ContainerAboutBodyImg' />
             </ContainerAboutBodyImage>
             <ContainerAboutBodyInfo>
-                <p className='ContainerAboutBodyInfoTitle'>WOODIES is the home of modern wooden furniture</p>
+                <p className='ContainerAboutBodyInfoTitle'><strong className='ContainerAboutBodyStrong'>WOODIES</strong> is the <strong className='ContainerAboutBodyStrong'>home of modern wooden furniture</strong></p>
                 <p className='ContainerAboutBodyInfoText'>the answer to your need for furniture with shapes,
                  sizes and colors.</p>
             </ContainerAboutBodyInfo>

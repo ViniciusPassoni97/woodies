@@ -16,8 +16,8 @@ const home: React.FC = () => {
         
             </div>
             <img className='group' src={Group} alt='Group' />
-            <About />
         </ContainerHome>
+            <About />
       </>
   );
 }
